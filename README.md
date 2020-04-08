@@ -15,11 +15,11 @@ Student number : 300026641
 
 ## Running :
 
-####1) Create Database
+###1) Create Database
 
 Create a *PostgreSQL* database using any sofware or interface such as *DataGrip* or *Postico*.
 
-####2) Run migrations
+###2) Run migrations
 
 Execute the migrations in order using transactions mechanism.  
 
