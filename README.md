@@ -30,7 +30,19 @@ The migrations are located in the following directory : */db/Migrations*.
 Fill up the databse with data using the file ***seeds.sql*** found in the ***/db*** directory. Use a single transaction if possible.
 
 
+#### 4) Install PHP ####
 
+Install PHP on your machine.
+
+#### 4) Setting up PHP file ####
+
+Open the file called ***main.php*** found in the current directory. At line 3, change **dbname** to the name of the databse you created.
+
+```
+
+$DB = pg_connect("host=localhost port=5432 dbname=[REPLACE_WITH_YOUR_DB_NAME]");
+
+```
 
 
 
